@@ -145,15 +145,15 @@ const Content = () => {
       </section>
       
       <section className="pt-12 text-xs text-gray-400 font-mono">
-        <p>© {new Date().getFullYear()} Qingzheng Wang. Design inspired by minimal academic themes.</p>
+        <p>© {new Date().getFullYear()} Qingzheng Wang.</p>
       </section>
     </div>
   );
 };
 
 const Publication = ({ title, authors, venue, links }: { title: string, authors: React.ReactNode, venue: string, links: {text: string, url: string}[] }) => (
-  <div className="group">
-    <h4 className="font-bold text-gray-900 text-lg leading-tight group-hover:text-blue-600 transition-colors">
+  <div>
+    <h4 className="font-bold text-gray-900 text-lg leading-tight">
       {title}
     </h4>
     <p className="text-gray-600 mt-1 text-sm leading-relaxed">
@@ -181,7 +181,7 @@ const Publication = ({ title, authors, venue, links }: { title: string, authors:
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen" style={{ backgroundColor: '#FEFAF1' }}>
       <div className="max-w-6xl mx-auto px-6 py-12 md:py-24">
         <div className="flex flex-col md:flex-row gap-12 lg:gap-24">
           
