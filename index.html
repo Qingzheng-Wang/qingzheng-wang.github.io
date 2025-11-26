@@ -1,110 +1,70 @@
 <!doctype html>
 <html lang="en">
   <head>
-
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="M.S. Student, Carnegie Mellon University">
+    <meta name="description" content="Qingzheng Wang - M.S. Student, Carnegie Mellon University">
     <meta name="author" content="Qingzheng Wang">
-    <meta name="theme-color" content="#222222">
-
-    <link rel="apple-touch-icon" sizes="180x180" href="images/nicons/logo_180_180.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/nicons/logo_32_32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/nicons/logo_16_16.png">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/style-3.css">
-      
     <title>Qingzheng Wang</title>
-  </head>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <!-- Note: For a larger production app, we would install tailwind via npm, but the CDN works fine here -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['Playfair Display', 'serif'],
+            },
+            colors: {
+              primary: '#1a1a1a',
+              secondary: '#666666',
+              accent: '#C41230', // CMU Red-ish
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Custom tweaks */
+      body {
+        background-color: #fdfdfd;
+        color: #1a1a1a;
+      }
+      .link-hover {
+        position: relative;
+        text-decoration: none;
+        background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 1px;
+        transition: background-size .3s;
+      }
+      .link-hover:hover {
+        background-size: 100% 1px;
+      }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "vite": "https://aistudiocdn.com/vite@^7.2.4",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1"
+  }
+}
+</script>
+</head>
   <body>
-    <!-- <h1>Hello, world!</h1> -->
-    <div class="container pt-5 allstuffp">
-        <div class="row pt-5 allstuff">
-            <div class="col-md-4 pt-5">
-                <div class="fixed-posi">
-                <img src="images/qingzheng_profile.png" class="profilepic pt-3 pb-2">
-                <p class="name">Qingzheng Wang</p>
-                <p class="name">王清正</p>
-                <!-- <div class="pt-5 menur"><a class="menulink" target="_blank" href="assets/sebastin_cv.pdf">curriculum vitae</a></div> -->
-                <div class=""><a class="menulink" target="_blank" href="https://scholar.google.com/citations?user=Ihvv-tEAAAAJ&hl=en"><img src="images/Google_Scholar_logo.svg.png" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 6px;">Google Scholar</a></div>
-                <div class=""><a class="menulink" target="_blank" href="mailto:qingzhengwang.app@gmail.com">📧 Emails</a></div>
-                <div class=""><a class="menulink" target="_blank" href="https://github.com/Qingzheng-Wang"><img src="images/github-mark.png" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 6px;">Github</a></div>
-                <div class=""><a class="menulink" target="_blank" href="https://www.linkedin.com/in/qingzheng-wang-65627427a/"><img src="images/LinkedIn_icon.svg.png" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 6px;">Linkedin</a></div>
-                
-                </div>
-            </div>
-            <div class="col-md-8 pt-5 about">
-                 I am a Master's student at <a class="in-text" href="https://www.cmu.edu/"
-                     target="_blank">Carnegie Mellon University</a>. 
-                 My research focuses on <strong>Speech Processing</strong>, including <strong>Automatic Speech Recognition</strong>, <strong>Spoken Language Identification</strong>, and <strong>Spoken Language Models</strong>.
-                 <br> <br>
-
-                 Prior to CMU, I completed my Bachelor's degree in Computer Science and Technology at 
-                 <a class="in-text" href="https://www.whu.edu.cn/" target="_blank">Wuhan University</a><br><br>
-
-                 I have been fortunate to study with an amazing set of researchers. I am currently working with 
-                 <a class="in-text" href="https://sites.google.com/view/shinjiwatanabe" target="_blank">Prof. Shinji Watanabe</a> at CMU. 
-                 Previously, I worked on speech enhancement with <a class="in-text" href="https://audio.westlake.edu.cn" target="_blank">Prof. Xiaofei Li</a> at Westlake University, 
-                 and completed my undergraduate studies under the guidance of <a class="in-text" href="https://scholar.google.com/citations?user=EpL0mrgAAAAJ&hl=en" target="_blank">Prof. Yuhong Yang</a> at Wuhan University.
-
-                 <p class="header pt-5">Publications</p>
-                 <div class="py-2">
-                 <p class="paper my-2 pl-2">
-                    <span class="papertitle">CS-YODAS: A Mined Dataset of In-the-Wild Code-Switched Speech</span><br>
-                    Brian Yan, <span class="thisauthor">Qingzheng Wang</span>, Matthew Wiesner, Olga Iakovenko, Alexander Polok, Anuj Diwan, Injy Hamed, Shuichiro Shimizu, Thomas Hain, David Mortensen, Peter Viechnicki, Shinji Watanabe<br>
-                    <span class="conf">Submitted to LREC, 2026</span> <br>
-                    <!-- <a class="tag" href="https://arxiv.org/pdf/2410.16464" target="_blank">PDF</a><span class="tagsep">|</span>
-                    <a class="tag" href="https://arxiv.org/abs/2410.16464" target="_blank">Abstract</a><span class="tagsep">|</span>
-                    <a class="tag" href="https://yueqis.github.io/API-Based-Agent/" target="_blank">Project Website</a><span class="tagsep"></span> -->
-                 </p>
-                 </div>
-                 <div class="py-2">
-                 <p class="paper my-2 pl-2">
-                    <span class="papertitle">Geolocation-Aware Robust Spoken Language Identification</span><br>
-                    <span class="thisauthor">Qingzheng Wang</span>, Hye-jin Shim, Jiancheng Sun, Shinji Watanabe<br>
-                    <span class="conf">Proc. IEEE ASRU, 2025</span> <br>
-                    <a class="tag" href="https://arxiv.org/pdf/2508.17148" target="_blank">PDF</a><span class="tagsep">|</span>
-                 </p>
-                 </div>
-                 <div class="py-2">
-                 <p class="paper my-2 pl-2">
-                    <span class="papertitle">Improving Multilingual Speech Models on ML-SUPERB 2.0: Fine-tuning with Data Augmentation and LID-Aware CTC</span><br>
-                    <span class="thisauthor">Qingzheng Wang</span>*, Jiancheng Sun*, Yifan Peng, Shinji Watanabe
-                    <span class="noter"> (* Equal Contribution)</span><br>
-                    <span class="conf">Proc. Interspeech, 2025</span> <br>
-                    <a class="tag" href="https://www.isca-archive.org/interspeech_2025/wang25z_interspeech.pdf" target="_blank">PDF</a><span class="tagsep">|</span>
-                 </p>
-                 </div>
-                 </div>
-
-                <div class="py-4 pl-2" style="text-align: left;">
-                    <div class="mt-2" style="display: inline-block; margin-right: 40px;">
-                        <img class="img-fluid instilogo p-1" src="images/whu.png">
-                        <div class="institution">Wuhan University</div>
-                        <div class="years">2020 - 2024</div>
-                    </div>
-                    <div class="mt-2" style="display: inline-block;">
-                        <img class="img-fluid instilogo p-1" src="images/cmu.png">
-                        <div class="institution">Carnegie Mellon University</div>
-                        <div class="years">2024 - 2026</div>
-                    </div>
-                </div>
-
-            </div>
-            
-        </div>
-    </div>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="assets/style-3.js"></script>
-</body>
-  <style>
-  </style>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
 </html>
