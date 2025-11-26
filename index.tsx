@@ -14,44 +14,44 @@ const Profile = () => {
       </div>
       
       <div>
-        <h1 className="text-3xl font-serif font-bold text-gray-900">Qingzheng Wang</h1>
-        <h2 className="text-xl font-serif text-gray-600 mt-1">王清正</h2>
+        <h1 className="text-3xl font-sans font-bold text-gray-900">Qingzheng Wang</h1>
+        <h2 className="text-xl font-sans text-gray-600 mt-1">王清正</h2>
       </div>
 
-      <div className="flex flex-col space-y-3 text-sm text-gray-600 w-full">
-        <a href="https://scholar.google.com/citations?user=Ihvv-tEAAAAJ&hl=en" target="_blank" className="flex items-center justify-center md:justify-start hover:text-accent transition-colors group">
-          <img src="images/Google_Scholar_logo.svg.png" className="w-5 h-5 mr-3 opacity-70 group-hover:opacity-100 transition-opacity" alt="Scholar" />
+      <div className="flex flex-col space-y-3 text-sm text-gray-900 w-full">
+        <a href="https://scholar.google.com/citations?user=Ihvv-tEAAAAJ&hl=en" target="_blank" className="flex items-center justify-center md:justify-start hover:text-blue-600 transition-colors group">
+          <img src="images/Google_Scholar_logo.svg.png" className="w-5 h-5 mr-3 transition-opacity" alt="Scholar" />
           <span>Google Scholar</span>
         </a>
-        <a href="mailto:qingzhengwang.app@gmail.com" className="flex items-center justify-center md:justify-start hover:text-accent transition-colors group">
-          <span className="w-5 h-5 mr-3 flex items-center justify-center text-lg opacity-70 group-hover:opacity-100 transition-opacity">📧</span>
+        <a href="mailto:qingzhengwang.app@gmail.com" className="flex items-center justify-center md:justify-start hover:text-blue-600 transition-colors group">
+          <span className="w-5 h-5 mr-3 flex items-center justify-center text-lg transition-opacity">📧</span>
           <span>qingzhengwang.app@gmail.com</span>
         </a>
-        <a href="https://github.com/Qingzheng-Wang" target="_blank" className="flex items-center justify-center md:justify-start hover:text-accent transition-colors group">
-          <img src="images/github-mark.png" className="w-5 h-5 mr-3 opacity-70 group-hover:opacity-100 transition-opacity" alt="Github" />
+        <a href="https://github.com/Qingzheng-Wang" target="_blank" className="flex items-center justify-center md:justify-start hover:text-blue-600 transition-colors group">
+          <img src="images/github-mark.png" className="w-5 h-5 mr-3 transition-opacity" alt="Github" />
           <span>GitHub</span>
         </a>
-        <a href="https://www.linkedin.com/in/qingzheng-wang-65627427a/" target="_blank" className="flex items-center justify-center md:justify-start hover:text-accent transition-colors group">
-          <img src="images/LinkedIn_icon.svg.png" className="w-5 h-5 mr-3 opacity-70 group-hover:opacity-100 transition-opacity" alt="LinkedIn" />
+        <a href="https://www.linkedin.com/in/qingzheng-wang-65627427a/" target="_blank" className="flex items-center justify-center md:justify-start hover:text-blue-600 transition-colors group">
+          <img src="images/LinkedIn_icon.svg.png" className="w-5 h-5 mr-3 transition-opacity" alt="LinkedIn" />
           <span>LinkedIn</span>
         </a>
       </div>
       
       <div className="pt-6 border-t border-gray-100 w-full hidden md:block">
-        <p className="text-xs text-gray-400 uppercase tracking-widest mb-4">Affiliations</p>
+        <p className="text-xs text-gray-400 uppercase tracking-widest mb-4">Experiences</p>
         <div className="space-y-4">
            <div className="flex items-center space-x-3">
               <img src="images/cmu.png" className="w-8 h-auto" alt="CMU Logo" />
               <div className="text-xs text-gray-600">
                 <div className="font-semibold">Carnegie Mellon University</div>
-                <div>2024 - 2026</div>
+                <div>Master | 2024 - 2026</div>
               </div>
            </div>
            <div className="flex items-center space-x-3">
               <img src="images/whu.png" className="w-8 h-auto" alt="WHU Logo" />
               <div className="text-xs text-gray-600">
                 <div className="font-semibold">Wuhan University</div>
-                <div>2020 - 2024</div>
+                <div>Bachelor | 2020 - 2024</div>
               </div>
            </div>
         </div>
@@ -125,20 +125,20 @@ const Content = () => {
 
       {/* Mobile only Education section */}
       <section className="md:hidden">
-        <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">Affiliations</h3>
+        <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">Experiences</h3>
         <div className="space-y-4">
            <div className="flex items-center space-x-3 bg-white p-3 rounded-lg border border-gray-100 shadow-sm">
               <img src="images/cmu.png" className="w-10 h-auto" alt="CMU Logo" />
               <div className="text-sm text-gray-700">
                 <div className="font-semibold">Carnegie Mellon University</div>
-                <div className="text-gray-500 text-xs">2024 - 2026</div>
+                <div className="text-gray-500 text-xs">Master | 2024 - 2026</div>
               </div>
            </div>
            <div className="flex items-center space-x-3 bg-white p-3 rounded-lg border border-gray-100 shadow-sm">
               <img src="images/whu.png" className="w-10 h-auto" alt="WHU Logo" />
               <div className="text-sm text-gray-700">
                 <div className="font-semibold">Wuhan University</div>
-                <div className="text-gray-500 text-xs">2020 - 2024</div>
+                <div className="text-gray-500 text-xs">Bachelor | 2020 - 2024</div>
               </div>
            </div>
         </div>
