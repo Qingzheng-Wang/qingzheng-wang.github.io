@@ -24,7 +24,7 @@ const Profile = () => {
           <span>Google Scholar</span>
         </a>
         <a href="mailto:qingzhengwang.app@gmail.com" className="flex items-center justify-center md:justify-start hover:text-blue-600 transition-colors group">
-          <span className="w-5 h-5 mr-3 flex items-center justify-center text-lg transition-opacity">📧</span>
+          <img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico" className="w-5 h-5 mr-3 transition-opacity" alt="Email" />
           <span>qingzhengwang.app@gmail.com</span>
         </a>
         <a href="https://github.com/Qingzheng-Wang" target="_blank" className="flex items-center justify-center md:justify-start hover:text-blue-600 transition-colors group">
