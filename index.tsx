@@ -82,6 +82,18 @@ const Content = () => {
       <section>
         <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-6">Publications</h3>
         <div className="space-y-8">
+
+          <Publication
+            title="Bagpiper: Solving Open-Ended Audio Tasks via Rich Captions"
+            authors={
+              <>
+                Jinchuan Tian*, Haoran Wang*, Bo-Hao Su*, Chien-yu Huang*, <strong className="text-gray-900">Qingzheng Wang</strong>*, Jiatong Shi, William Chen, Xun Gong, Siddhant Arora, Chin-Jou Li, Masao Someki, Takashi Maekaku, Yusuke Shinohara, Jin Sakuma, Chao-Han Huck Yang, Shinji Watanabe
+              </>
+            }
+            links={[
+              { text: "PDF", url: "https://arxiv.org/pdf/2602.05220" }
+            ]}
+          />
           
           <Publication
             title="CS-YODAS: A Mined Dataset of In-the-Wild Code-Switched Speech"
