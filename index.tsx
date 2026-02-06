@@ -90,6 +90,7 @@ const Content = () => {
                 Jinchuan Tian*, Haoran Wang*, Bo-Hao Su*, Chien-yu Huang*, <strong className="text-gray-900">Qingzheng Wang</strong>*, Jiatong Shi, William Chen, Xun Gong, Siddhant Arora, Chin-Jou Li, Masao Someki, Takashi Maekaku, Yusuke Shinohara, Jin Sakuma, Chao-Han Huck Yang, Shinji Watanabe
               </>
             }
+            venue="arXiv, 2026"
             links={[
               { text: "PDF", url: "https://arxiv.org/pdf/2602.05220" }
             ]}
