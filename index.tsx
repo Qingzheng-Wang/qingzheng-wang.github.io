@@ -66,16 +66,8 @@ const Content = () => {
       <section>
         <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">About Me</h3>
         <p className="text-gray-700 leading-relaxed text-lg">
-          I am a Master's student at <a href="https://www.cmu.edu/" target="_blank" className="font-medium text-blue-600 hover:text-blue-800 border-b border-transparent hover:border-blue-800 transition-all">Carnegie Mellon University</a>. 
-          My research focuses on <strong className="text-gray-900 font-semibold">Speech Processing</strong>, including <strong className="text-gray-900 font-semibold">Automatic Speech Recognition</strong>, <strong className="text-gray-900 font-semibold">Spoken Language Identification</strong>, and <strong className="text-gray-900 font-semibold">Spoken Language Models</strong>.
-        </p>
-        <p className="text-gray-700 leading-relaxed text-lg mt-4">
-          Prior to CMU, I completed my Bachelor's degree in Computer Science and Technology at <a href="https://www.whu.edu.cn/" target="_blank" className="font-medium text-blue-600 hover:text-blue-800 border-b border-transparent hover:border-blue-800 transition-all">Wuhan University</a>.
-        </p>
-        <p className="text-gray-700 leading-relaxed text-lg mt-4">
-          I have been fortunate to study with an amazing set of researchers. I am currently working with <a href="https://sites.google.com/view/shinjiwatanabe" target="_blank" className="font-medium text-blue-600 hover:text-blue-800 border-b border-transparent hover:border-blue-800 transition-all">Prof. Shinji Watanabe</a> at CMU. 
-          Previously, I worked on speech enhancement with <a href="https://audio.westlake.edu.cn" target="_blank" className="font-medium text-blue-600 hover:text-blue-800 border-b border-transparent hover:border-blue-800 transition-all">Prof. Xiaofei Li</a> at Westlake University, 
-          and completed my undergraduate studies under the guidance of <a href="https://scholar.google.com/citations?user=EpL0mrgAAAAJ&hl=en" target="_blank" className="font-medium text-blue-600 hover:text-blue-800 border-b border-transparent hover:border-blue-800 transition-all">Prof. Yuhong Yang</a> at Wuhan University.
+          I am a Master's student at Carnegie Mellon University. 
+          I do research on Speech Language Models.
         </p>
       </section>
 
