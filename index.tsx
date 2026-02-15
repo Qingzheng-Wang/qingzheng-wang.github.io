@@ -66,7 +66,8 @@ const Content = () => {
       <section>
         <h3 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">About Me</h3>
         <p className="text-gray-700 leading-relaxed text-lg">
-          I am a Master's student at Carnegie Mellon University. 
+          I am a Master's student at Carnegie Mellon University.
+          
           I do research on Speech Language Models.
         </p>
       </section>
