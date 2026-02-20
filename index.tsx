@@ -95,7 +95,7 @@ const Content = () => {
                 Brian Yan, <strong className="text-gray-900">Qingzheng Wang</strong>, Matthew Wiesner, Olga Iakovenko, Alexander Polok, Anuj Diwan, Injy Hamed, Shuichiro Shimizu, Thomas Hain, David Mortensen, Peter Viechnicki, Shinji Watanabe
               </>
             }
-            venue="Submitted to LREC, 2026"
+            venue="LREC, 2026"
             links={[]}
           />
 
